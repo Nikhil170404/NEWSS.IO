@@ -19,7 +19,7 @@ const App = () => {
       <Navbar onSearch={handleSearch} />
       <div className="content">
         <Routes>
-          <Route path="/" element={<HomePage />} exact />
+          <Route path="/home" element={<HomePage />} exact />
           <Route path="/article/:url" element={<ArticlePage />} />
           <Route path="/search" element={<SearchResults />} />
           <Route path="/contact" element={<ContactPage />} /> {/* Route for ContactPage */}
