@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/NEWSS.IO/static/css/main.e4eb8e82.css",
+    "main.js": "/NEWSS.IO/static/js/main.1a68f1e0.js",
+    "static/media/whiteiron.jpg": "/NEWSS.IO/static/media/whiteiron.7daf03e8fe5b8b380f0c.jpg",
+    "index.html": "/NEWSS.IO/index.html",
+    "main.e4eb8e82.css.map": "/NEWSS.IO/static/css/main.e4eb8e82.css.map",
+    "main.1a68f1e0.js.map": "/NEWSS.IO/static/js/main.1a68f1e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4eb8e82.css",
+    "static/js/main.1a68f1e0.js"
+  ]
+}
