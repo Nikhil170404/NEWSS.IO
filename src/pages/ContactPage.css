@@ -1,0 +1,25 @@
+/* src/pages/ContactPage.css */
+
+.contact-page {
+    padding: 20px;
+  }
+  
+  .contact-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-page p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .contact-page a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-page a:hover {
+    text-decoration: underline;
+  }
+  

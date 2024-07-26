@@ -1,0 +1,62 @@
+/* Improved CSS code */
+
+.category-filter {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.category-filter select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: inherit; /* added to inherit font size from parent */
+}
+
+.category-filter select:hover,
+.category-filter select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px #007bff; /* added box shadow on hover and focus */
+}
+
+.category-filter select option {
+  padding: 10px;
+}
+
+.category-filter-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #555;
+  font-size: 18px;
+}
+
+.category-filter:hover .category-filter-icon {
+  color: #007bff;
+}
+
+/* Added new styles for improved accessibility */
+.category-filter:focus-within {
+  box-shadow: 0 0 0 2px #007bff;
+}
+
+.category-filter select:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
